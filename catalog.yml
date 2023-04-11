@@ -10,7 +10,6 @@ spring:
           max-age: 3600
           cache-public: true
   datasource:
-    url: jdbc:postgresql://${POSTGRES-SERVER-NAME}:5432/${CATALOG-DATABASE-NAME}?sslmode=require
     passwordless-enabled: true
   config:
     activate:
