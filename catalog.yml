@@ -10,7 +10,8 @@ spring:
           max-age: 3600
           cache-public: true
   datasource:
-    passwordless-enabled: true
+    azure:
+      passwordless-enabled: true
   config:
     activate:
       on-profile: default
